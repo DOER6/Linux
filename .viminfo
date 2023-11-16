@@ -15,11 +15,13 @@
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1700053823,,"wq"
+|2,0,1700131770,,"wq"
+:q!
+|2,0,1700131423,,"q!"
+:qi
+|2,0,1700131420,,"qi"
 :Wq
 |2,0,1699962881,,"Wq"
-:q!
-|2,0,1699952652,,"q!"
 :qa!
 |2,0,1699952620,,"qa!"
 :qa1
@@ -408,40 +410,94 @@
 |3,0,36,2,1,0,1699881645,"#"
 
 # File marks:
-'0  53  0  ~/Thread/eg2.c
-|4,48,53,0,1700053823,"~/Thread/eg2.c"
-'1  15  0  ~/Thread/eg1.c
-|4,49,15,0,1700053714,"~/Thread/eg1.c"
-'2  26  0  ~/Thread/eg1.c
-|4,50,26,0,1700053663,"~/Thread/eg1.c"
-'3  26  0  ~/Thread/eg1.c
-|4,51,26,0,1700053663,"~/Thread/eg1.c"
-'4  52  0  ~/InterProCom/sharemem/sharemem.c
-|4,52,52,0,1699962882,"~/InterProCom/sharemem/sharemem.c"
-'5  14  94  ~/InterProCom/comm/write_pipe.c
-|4,53,14,94,1699961890,"~/InterProCom/comm/write_pipe.c"
-'6  14  94  ~/InterProCom/comm/write_pipe.c
-|4,54,14,94,1699961851,"~/InterProCom/comm/write_pipe.c"
-'7  23  0  ~/InterProCom/comm/read_pipe.c
-|4,55,23,0,1699961780,"~/InterProCom/comm/read_pipe.c"
-'8  1  0  ~/InterProCom/unnamepipe/unnamepipe2.c
-|4,56,1,0,1699960172,"~/InterProCom/unnamepipe/unnamepipe2.c"
-'9  19  128  ~/InterProCom/unnamepipe/unnamepipe2.c
-|4,57,19,128,1699957777,"~/InterProCom/unnamepipe/unnamepipe2.c"
+'0  1  0  ~/.ssh/id_rsa.pub
+|4,48,1,0,1700131770,"~/.ssh/id_rsa.pub"
+'1  1  0  ~/.ssh/config
+|4,49,1,0,1700131423,"~/.ssh/config"
+'2  53  0  ~/Thread/eg2.c
+|4,50,53,0,1700053823,"~/Thread/eg2.c"
+'3  15  0  ~/Thread/eg1.c
+|4,51,15,0,1700053714,"~/Thread/eg1.c"
+'4  26  0  ~/Thread/eg1.c
+|4,52,26,0,1700053663,"~/Thread/eg1.c"
+'5  26  0  ~/Thread/eg1.c
+|4,53,26,0,1700053663,"~/Thread/eg1.c"
+'6  52  0  ~/InterProCom/sharemem/sharemem.c
+|4,54,52,0,1699962882,"~/InterProCom/sharemem/sharemem.c"
+'7  14  94  ~/InterProCom/comm/write_pipe.c
+|4,55,14,94,1699961890,"~/InterProCom/comm/write_pipe.c"
+'8  14  94  ~/InterProCom/comm/write_pipe.c
+|4,56,14,94,1699961851,"~/InterProCom/comm/write_pipe.c"
+'9  23  0  ~/InterProCom/comm/read_pipe.c
+|4,57,23,0,1699961780,"~/InterProCom/comm/read_pipe.c"
 
 # Jumplist (newest first):
+-'  1  0  ~/.ssh/id_rsa.pub
+|4,39,1,0,1700131770,"~/.ssh/id_rsa.pub"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1700131423,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1700131423,"~/.ssh/config"
 -'  53  0  ~/Thread/eg2.c
 |4,39,53,0,1700053823,"~/Thread/eg2.c"
+-'  53  0  ~/Thread/eg2.c
+|4,39,53,0,1700053823,"~/Thread/eg2.c"
+-'  53  0  ~/Thread/eg2.c
+|4,39,53,0,1700053823,"~/Thread/eg2.c"
+-'  53  0  ~/Thread/eg2.c
+|4,39,53,0,1700053823,"~/Thread/eg2.c"
+-'  1  0  ~/Thread/eg2.c
+|4,39,1,0,1700053762,"~/Thread/eg2.c"
+-'  1  0  ~/Thread/eg2.c
+|4,39,1,0,1700053762,"~/Thread/eg2.c"
+-'  1  0  ~/Thread/eg2.c
+|4,39,1,0,1700053762,"~/Thread/eg2.c"
 -'  1  0  ~/Thread/eg2.c
 |4,39,1,0,1700053762,"~/Thread/eg2.c"
 -'  15  0  ~/Thread/eg1.c
 |4,39,15,0,1700053714,"~/Thread/eg1.c"
 -'  15  0  ~/Thread/eg1.c
 |4,39,15,0,1700053714,"~/Thread/eg1.c"
+-'  15  0  ~/Thread/eg1.c
+|4,39,15,0,1700053714,"~/Thread/eg1.c"
+-'  15  0  ~/Thread/eg1.c
+|4,39,15,0,1700053714,"~/Thread/eg1.c"
+-'  15  0  ~/Thread/eg1.c
+|4,39,15,0,1700053714,"~/Thread/eg1.c"
+-'  15  0  ~/Thread/eg1.c
+|4,39,15,0,1700053714,"~/Thread/eg1.c"
+-'  15  0  ~/Thread/eg1.c
+|4,39,15,0,1700053714,"~/Thread/eg1.c"
+-'  15  0  ~/Thread/eg1.c
+|4,39,15,0,1700053714,"~/Thread/eg1.c"
 -'  26  0  ~/Thread/eg1.c
 |4,39,26,0,1700053708,"~/Thread/eg1.c"
 -'  26  0  ~/Thread/eg1.c
 |4,39,26,0,1700053708,"~/Thread/eg1.c"
+-'  26  0  ~/Thread/eg1.c
+|4,39,26,0,1700053708,"~/Thread/eg1.c"
+-'  26  0  ~/Thread/eg1.c
+|4,39,26,0,1700053708,"~/Thread/eg1.c"
+-'  26  0  ~/Thread/eg1.c
+|4,39,26,0,1700053708,"~/Thread/eg1.c"
+-'  26  0  ~/Thread/eg1.c
+|4,39,26,0,1700053708,"~/Thread/eg1.c"
+-'  26  0  ~/Thread/eg1.c
+|4,39,26,0,1700053708,"~/Thread/eg1.c"
+-'  26  0  ~/Thread/eg1.c
+|4,39,26,0,1700053708,"~/Thread/eg1.c"
+-'  26  0  ~/Thread/eg1.c
+|4,39,26,0,1700053663,"~/Thread/eg1.c"
+-'  26  0  ~/Thread/eg1.c
+|4,39,26,0,1700053663,"~/Thread/eg1.c"
+-'  26  0  ~/Thread/eg1.c
+|4,39,26,0,1700053663,"~/Thread/eg1.c"
+-'  26  0  ~/Thread/eg1.c
+|4,39,26,0,1700053663,"~/Thread/eg1.c"
+-'  26  0  ~/Thread/eg1.c
+|4,39,26,0,1700053663,"~/Thread/eg1.c"
+-'  26  0  ~/Thread/eg1.c
+|4,39,26,0,1700053663,"~/Thread/eg1.c"
 -'  26  0  ~/Thread/eg1.c
 |4,39,26,0,1700053663,"~/Thread/eg1.c"
 -'  26  0  ~/Thread/eg1.c
@@ -454,6 +510,78 @@
 |4,39,1,0,1700053659,"~/Thread/eg1.c"
 -'  1  0  ~/Thread/eg1.c
 |4,39,1,0,1700053659,"~/Thread/eg1.c"
+-'  1  0  ~/Thread/eg1.c
+|4,39,1,0,1700053659,"~/Thread/eg1.c"
+-'  1  0  ~/Thread/eg1.c
+|4,39,1,0,1700053659,"~/Thread/eg1.c"
+-'  1  0  ~/Thread/eg1.c
+|4,39,1,0,1700053659,"~/Thread/eg1.c"
+-'  1  0  ~/Thread/eg1.c
+|4,39,1,0,1700053659,"~/Thread/eg1.c"
+-'  1  0  ~/Thread/eg1.c
+|4,39,1,0,1700053659,"~/Thread/eg1.c"
+-'  1  0  ~/Thread/eg1.c
+|4,39,1,0,1700053659,"~/Thread/eg1.c"
+-'  1  0  ~/Thread/eg1.c
+|4,39,1,0,1700053659,"~/Thread/eg1.c"
+-'  1  0  ~/Thread/eg1.c
+|4,39,1,0,1700053659,"~/Thread/eg1.c"
+-'  1  0  ~/Thread/eg1.c
+|4,39,1,0,1700053659,"~/Thread/eg1.c"
+-'  1  0  ~/Thread/eg1.c
+|4,39,1,0,1700053659,"~/Thread/eg1.c"
+-'  1  0  ~/Thread/eg1.c
+|4,39,1,0,1700053659,"~/Thread/eg1.c"
+-'  1  0  ~/Thread/eg1.c
+|4,39,1,0,1700053659,"~/Thread/eg1.c"
+-'  52  0  ~/InterProCom/sharemem/sharemem.c
+|4,39,52,0,1699962882,"~/InterProCom/sharemem/sharemem.c"
+-'  52  0  ~/InterProCom/sharemem/sharemem.c
+|4,39,52,0,1699962882,"~/InterProCom/sharemem/sharemem.c"
+-'  52  0  ~/InterProCom/sharemem/sharemem.c
+|4,39,52,0,1699962882,"~/InterProCom/sharemem/sharemem.c"
+-'  52  0  ~/InterProCom/sharemem/sharemem.c
+|4,39,52,0,1699962882,"~/InterProCom/sharemem/sharemem.c"
+-'  52  0  ~/InterProCom/sharemem/sharemem.c
+|4,39,52,0,1699962882,"~/InterProCom/sharemem/sharemem.c"
+-'  52  0  ~/InterProCom/sharemem/sharemem.c
+|4,39,52,0,1699962882,"~/InterProCom/sharemem/sharemem.c"
+-'  52  0  ~/InterProCom/sharemem/sharemem.c
+|4,39,52,0,1699962882,"~/InterProCom/sharemem/sharemem.c"
+-'  52  0  ~/InterProCom/sharemem/sharemem.c
+|4,39,52,0,1699962882,"~/InterProCom/sharemem/sharemem.c"
+-'  52  0  ~/InterProCom/sharemem/sharemem.c
+|4,39,52,0,1699962882,"~/InterProCom/sharemem/sharemem.c"
+-'  52  0  ~/InterProCom/sharemem/sharemem.c
+|4,39,52,0,1699962882,"~/InterProCom/sharemem/sharemem.c"
+-'  52  0  ~/InterProCom/sharemem/sharemem.c
+|4,39,52,0,1699962882,"~/InterProCom/sharemem/sharemem.c"
+-'  52  0  ~/InterProCom/sharemem/sharemem.c
+|4,39,52,0,1699962882,"~/InterProCom/sharemem/sharemem.c"
+-'  52  0  ~/InterProCom/sharemem/sharemem.c
+|4,39,52,0,1699962882,"~/InterProCom/sharemem/sharemem.c"
+-'  52  0  ~/InterProCom/sharemem/sharemem.c
+|4,39,52,0,1699962882,"~/InterProCom/sharemem/sharemem.c"
+-'  52  0  ~/InterProCom/sharemem/sharemem.c
+|4,39,52,0,1699962882,"~/InterProCom/sharemem/sharemem.c"
+-'  52  0  ~/InterProCom/sharemem/sharemem.c
+|4,39,52,0,1699962882,"~/InterProCom/sharemem/sharemem.c"
+-'  52  0  ~/InterProCom/sharemem/sharemem.c
+|4,39,52,0,1699962882,"~/InterProCom/sharemem/sharemem.c"
+-'  52  0  ~/InterProCom/sharemem/sharemem.c
+|4,39,52,0,1699962882,"~/InterProCom/sharemem/sharemem.c"
+-'  52  0  ~/InterProCom/sharemem/sharemem.c
+|4,39,52,0,1699962882,"~/InterProCom/sharemem/sharemem.c"
+-'  52  0  ~/InterProCom/sharemem/sharemem.c
+|4,39,52,0,1699962882,"~/InterProCom/sharemem/sharemem.c"
+-'  52  0  ~/InterProCom/sharemem/sharemem.c
+|4,39,52,0,1699962882,"~/InterProCom/sharemem/sharemem.c"
+-'  52  0  ~/InterProCom/sharemem/sharemem.c
+|4,39,52,0,1699962882,"~/InterProCom/sharemem/sharemem.c"
+-'  52  0  ~/InterProCom/sharemem/sharemem.c
+|4,39,52,0,1699962882,"~/InterProCom/sharemem/sharemem.c"
+-'  52  0  ~/InterProCom/sharemem/sharemem.c
+|4,39,52,0,1699962882,"~/InterProCom/sharemem/sharemem.c"
 -'  52  0  ~/InterProCom/sharemem/sharemem.c
 |4,39,52,0,1699962882,"~/InterProCom/sharemem/sharemem.c"
 -'  52  0  ~/InterProCom/sharemem/sharemem.c
@@ -486,152 +614,34 @@
 |4,39,12,43,1699962176,"~/InterProCom/sharemem/sharemem.c"
 -'  12  43  ~/InterProCom/sharemem/sharemem.c
 |4,39,12,43,1699962176,"~/InterProCom/sharemem/sharemem.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961890,"~/InterProCom/comm/write_pipe.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961890,"~/InterProCom/comm/write_pipe.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961890,"~/InterProCom/comm/write_pipe.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961890,"~/InterProCom/comm/write_pipe.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961890,"~/InterProCom/comm/write_pipe.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961890,"~/InterProCom/comm/write_pipe.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961890,"~/InterProCom/comm/write_pipe.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961890,"~/InterProCom/comm/write_pipe.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961890,"~/InterProCom/comm/write_pipe.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961890,"~/InterProCom/comm/write_pipe.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961890,"~/InterProCom/comm/write_pipe.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961890,"~/InterProCom/comm/write_pipe.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961890,"~/InterProCom/comm/write_pipe.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961890,"~/InterProCom/comm/write_pipe.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961890,"~/InterProCom/comm/write_pipe.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961890,"~/InterProCom/comm/write_pipe.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961851,"~/InterProCom/comm/write_pipe.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961851,"~/InterProCom/comm/write_pipe.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961851,"~/InterProCom/comm/write_pipe.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961851,"~/InterProCom/comm/write_pipe.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961851,"~/InterProCom/comm/write_pipe.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961851,"~/InterProCom/comm/write_pipe.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961851,"~/InterProCom/comm/write_pipe.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961851,"~/InterProCom/comm/write_pipe.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961851,"~/InterProCom/comm/write_pipe.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961851,"~/InterProCom/comm/write_pipe.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961851,"~/InterProCom/comm/write_pipe.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961851,"~/InterProCom/comm/write_pipe.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961851,"~/InterProCom/comm/write_pipe.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961851,"~/InterProCom/comm/write_pipe.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961851,"~/InterProCom/comm/write_pipe.c"
--'  14  94  ~/InterProCom/comm/write_pipe.c
-|4,39,14,94,1699961851,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  1  0  ~/InterProCom/comm/write_pipe.c
-|4,39,1,0,1699961789,"~/InterProCom/comm/write_pipe.c"
--'  23  0  ~/InterProCom/comm/read_pipe.c
-|4,39,23,0,1699961780,"~/InterProCom/comm/read_pipe.c"
--'  23  0  ~/InterProCom/comm/read_pipe.c
-|4,39,23,0,1699961780,"~/InterProCom/comm/read_pipe.c"
--'  23  0  ~/InterProCom/comm/read_pipe.c
-|4,39,23,0,1699961780,"~/InterProCom/comm/read_pipe.c"
--'  23  0  ~/InterProCom/comm/read_pipe.c
-|4,39,23,0,1699961780,"~/InterProCom/comm/read_pipe.c"
--'  23  0  ~/InterProCom/comm/read_pipe.c
-|4,39,23,0,1699961780,"~/InterProCom/comm/read_pipe.c"
--'  23  0  ~/InterProCom/comm/read_pipe.c
-|4,39,23,0,1699961780,"~/InterProCom/comm/read_pipe.c"
--'  23  0  ~/InterProCom/comm/read_pipe.c
-|4,39,23,0,1699961780,"~/InterProCom/comm/read_pipe.c"
--'  23  0  ~/InterProCom/comm/read_pipe.c
-|4,39,23,0,1699961780,"~/InterProCom/comm/read_pipe.c"
+-'  12  43  ~/InterProCom/sharemem/sharemem.c
+|4,39,12,43,1699962176,"~/InterProCom/sharemem/sharemem.c"
+-'  12  43  ~/InterProCom/sharemem/sharemem.c
+|4,39,12,43,1699962176,"~/InterProCom/sharemem/sharemem.c"
+-'  12  43  ~/InterProCom/sharemem/sharemem.c
+|4,39,12,43,1699962176,"~/InterProCom/sharemem/sharemem.c"
+-'  12  43  ~/InterProCom/sharemem/sharemem.c
+|4,39,12,43,1699962176,"~/InterProCom/sharemem/sharemem.c"
+-'  12  43  ~/InterProCom/sharemem/sharemem.c
+|4,39,12,43,1699962176,"~/InterProCom/sharemem/sharemem.c"
+-'  12  43  ~/InterProCom/sharemem/sharemem.c
+|4,39,12,43,1699962176,"~/InterProCom/sharemem/sharemem.c"
+-'  12  43  ~/InterProCom/sharemem/sharemem.c
+|4,39,12,43,1699962176,"~/InterProCom/sharemem/sharemem.c"
+-'  12  43  ~/InterProCom/sharemem/sharemem.c
+|4,39,12,43,1699962176,"~/InterProCom/sharemem/sharemem.c"
+-'  12  43  ~/InterProCom/sharemem/sharemem.c
+|4,39,12,43,1699962176,"~/InterProCom/sharemem/sharemem.c"
 
 # History of marks within files (newest to oldest):
+
+> ~/.ssh/id_rsa.pub
+	*	1700131769	0
+	"	1	0
+
+> ~/.ssh/config
+	*	1700131420	0
+	"	1	0
 
 > ~/Thread/eg2.c
 	*	1700053821	0
