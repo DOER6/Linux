@@ -1,0 +1,184 @@
+
+doer6@interview:~$ ls
+check  check.c  cnt  cnt.c  makefile  mixplus  mixplus.c  testcases.txt
+doer6@interview:~$ make clean
+rm -f mixplus check cnt
+doer6@interview:~$ ls
+check.c  cnt.c  makefile  mixplus.c  testcases.txt
+doer6@interview:~$ more check.c mixplus.c cnt.c makefile testcases.txt
+::::::::::::::
+check.c
+::::::::::::::
+#include <iostream>
+#include <cmath>
+
+struct Point {
+        double x, y;
+};
+bool onSegment(Point p, Point q, Point r) {
+         if (q.x <= std::max(p.x, r.x) && q.x >= std::min(p.x, r.x) && q.y <= std::max(p.y, r.y) && q.y >= std::min(p.y, r.y))
+                  return true;
+         return false;
+}
+
+bool doIntersect(Point p1, Point q1, Point p2, Point q2) {
+        double o1 = (q1.y - p1.y) * (p2.x - p1.x) - (q1.x - p1.x) * (p2.y - p1.y);
+        double o2 = (q1.y - p1.y) * (q2.x - p1.x) - (q1.x - p1.x) * (q2.y - p1.y);
+         double o3 = (q2.y - p2.y) * (p1.x - p2.x) - (q2.x - p2.x) * (p1.y - p2.y);
+         double o4 = (q2.y - p2.y) * (q1.x - p2.x) - (q2.x - p2.x) * (q1.y - p2.y);
+         if (o1 * o2 < 0 && o3 * o4 < 0) {
+                 return true;
+         }
+         if (o1 == 0 && onSegment(p1, p2, q1)) return true;
+         if (o2 == 0 && onSegment(p1, q2, q1)) return true;
+         if (o3 == 0 && onSegment(p2, p1, q2)) return true;
+         if (o4 == 0 && onSegment(p2, q1, q2)) return true;
+         return false;
+}
+
+int main(int argc, char* argv[]) {
+        if (argc != 9) {
+                std::cerr << "ERROR: Invalid number of arguments." << std::endl;
+                return 1;
+        };
+        Point L1P1 = {std::stod(argv[1]), std::stod(argv[2])};
+        Point L1P2 = {std::stod(argv[3]), std::stod(argv[4])};
+        Point L2P1 = {std::stod(argv[5]), std::stod(argv[6])};
+        Point L2P2 = {std::stod(argv[7]), std::stod(argv[8])};
+        if (doIntersect(L1P1, L1P2, L2P1, L2P2)) {
+                std::cout << "TRUE" << std::endl;
+        } else {
+                std::cout << "FALSE" << std::endl;
+        }
+        return 0;
+}
+
+
+::::::::::::::
+mixplus.c
+::::::::::::::
+#include <iostream>
+#include <iomanip>
+#include <sstream>
+int main(int argc, char* argv[]) {
+        //check input
+        if(argc !=3){
+                std::cerr << "ERROR" <<std::endl;
+                return 1;
+        }
+        std::string input1(argv[1]);
+        std::string input2(argv[2]);
+
+        if (input1.empty() || input2.empty()) {
+                std::cerr << "ERROR" << std::endl;
+                return 1;
+        }
+
+        int num1,num2;
+
+        {
+                std::istringstream ss1(input1);
+                if (input1.substr(0,2)=="0x"){
+                ss1.ignore(2);
+                ss1 >> std::hex >>num1;
+        }else{
+                ss1 >> std::dec >> num1;
+        }
+
+        if(ss1.fail()){
+                std::cerr << "ERROR" <<std::endl;
+                return 1;
+        }
+
+        }
+
+        {       std::istringstream ss2(input2);
+                if(input2.substr(0,2)=="0x"){
+                ss2.ignore(2);
+                ss2 >> std::hex >>num2;
+        }else{
+                ss2 >> std::dec >> num2;
+        }
+
+        if(ss2.fail()){
+                std::cerr << "ERROR" <<std::endl;
+                return 1;
+        }
+        }
+        //result
+        int sum = num1 + num2;
+        std::cout << std::hex << "0x" << sum << " " << std::dec << sum << std::endl;
+        return 0;
+}
+
+
+::::::::::::::
+cnt.c
+::::::::::::::
+#include <iostream>
+#include <unordered_map>
+#include <algorithm>
+void countPairsAndTriplets(const std::string& input) {
+        std::unordered_map<std::string, int> frequency;
+        for (size_t i = 0; i < input.length() - 1; ++i) {
+                std::string pair = input.substr(i, 2);
+                frequency[pair]++;
+        }
+        for (size_t i = 0; i < input.length() - 2; ++i) {
+                std::string triplet = input.substr(i, 3);
+                frequency[triplet]++;
+        }
+        for (const auto& entry : frequency) {
+                std::cout << entry.first << " " << entry.second << std::endl;
+        }
+   }
+int main(int argc, char* argv[]) {
+        if (argc != 2) {
+                std::cerr << "ERROR: Need a string." << std::endl;
+                return 1;
+        }
+        std::string input(argv[1]);
+        std::transform(input.begin(), input.end(), input.begin(), ::tolower);
+        countPairsAndTriplets(input);
+        return 0;
+}
+
+
+
+::::::::::::::
+makefile
+::::::::::::::
+CC = g++
+CFLAGS = -Wall -std=c++11
+all: mixplus check cnt
+
+mixplus: mixplus.c
+                $(CC) $(CFLAGS) -o mixplus mixplus.c
+
+check: check.c
+                $(CC) $(CFLAGS) -o check check.c
+
+cnt: cnt.c
+                $(CC) $(CFLAGS) -o cnt cnt.c
+
+clean:
+                rm -f mixplus check cnt
+::::::::::::::
+testcases.txt
+::::::::::::::
+xplus test cases
+./mixplus 0x10 1
+./mixplus 10 0x1
+./mixplus 10
+./mixplus 0x0dragonegg
+./mixplus 10 0x
+./mixplus 10 0xdragon
+./mixplus 0xdeadbeef hello world
+./mixplus 10 0xdragon
+
+# Check test case
+./check 0 0 1 1 0 1 1 0
+
+# Cnt test cases
+./cnt abcd
+
